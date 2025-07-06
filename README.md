@@ -1,5 +1,9 @@
 # MCP Webpage Timestamps
 
+[![npm version](https://badge.fury.io/js/mcp-webpage-timestamps.svg)](https://www.npmjs.com/package/mcp-webpage-timestamps)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Node.js Version](https://img.shields.io/node/v/mcp-webpage-timestamps.svg)](https://nodejs.org/)
+
 A powerful [Model Context Protocol (MCP)](https://modelcontextprotocol.io) server for extracting webpage creation, modification, and publication timestamps. This tool is designed for content freshness evaluation, web scraping, and temporal analysis of web content.
 
 ## Features
@@ -13,20 +17,29 @@ A powerful [Model Context Protocol (MCP)](https://modelcontextprotocol.io) serve
 
 ## Installation
 
+### Quick Install
+
+```bash
+npm install -g mcp-webpage-timestamps
+```
+
+### Usage with npx
+
+```bash
+npx mcp-webpage-timestamps
+```
+
 ### Prerequisites
 
 - Node.js 18.0.0 or higher
 - npm or yarn
 
-### Install Dependencies
+### Development Install
 
 ```bash
+git clone https://github.com/Fabien-desablens/mcp-webpage-timestamps.git
+cd mcp-webpage-timestamps
 npm install
-```
-
-### Build
-
-```bash
 npm run build
 ```
 
@@ -44,8 +57,8 @@ Add to your `claude_desktop_config.json`:
 {
   "mcpServers": {
     "webpage-timestamps": {
-      "command": "node",
-      "args": ["/path/to/mcp-webpage-timestamps/dist/index.js"],
+      "command": "npx",
+      "args": ["mcp-webpage-timestamps"],
       "env": {}
     }
   }
@@ -60,8 +73,8 @@ Add to your MCP settings:
 {
   "mcpServers": {
     "webpage-timestamps": {
-      "command": "node",
-      "args": ["/path/to/mcp-webpage-timestamps/dist/index.js"]
+      "command": "npx",
+      "args": ["mcp-webpage-timestamps"]
     }
   }
 }
