@@ -102,3 +102,6 @@ build/
 # Test output
 test-results/
 junit.xml
+
+# Personal notes
+CLAUDE.md
