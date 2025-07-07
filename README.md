@@ -3,6 +3,7 @@
 [![npm version](https://badge.fury.io/js/mcp-webpage-timestamps.svg)](https://www.npmjs.com/package/mcp-webpage-timestamps)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node.js Version](https://img.shields.io/node/v/mcp-webpage-timestamps.svg)](https://nodejs.org/)
+[![smithery badge](https://smithery.ai/badge/@Fabien-desablens/mcp-webpage-timestamps)](https://smithery.ai/server/@Fabien-desablens/mcp-webpage-timestamps)
 
 A powerful [Model Context Protocol (MCP)](https://modelcontextprotocol.io) server for extracting webpage creation, modification, and publication timestamps. This tool is designed for content freshness evaluation, web scraping, and temporal analysis of web content.
 
@@ -27,6 +28,14 @@ npm install -g mcp-webpage-timestamps
 
 ```bash
 npx mcp-webpage-timestamps
+```
+
+### Installing via Smithery
+
+To install mcp-webpage-timestamps for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@Fabien-desablens/mcp-webpage-timestamps):
+
+```bash
+npx -y @smithery/cli install @Fabien-desablens/mcp-webpage-timestamps --client claude
 ```
 
 ### Prerequisites
