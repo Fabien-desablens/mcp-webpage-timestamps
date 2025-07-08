@@ -5,7 +5,7 @@
 [![Node.js Version](https://img.shields.io/node/v/mcp-webpage-timestamps.svg)](https://nodejs.org/)
 [![smithery badge](https://smithery.ai/badge/@Fabien-desablens/mcp-webpage-timestamps)](https://smithery.ai/server/@Fabien-desablens/mcp-webpage-timestamps)
 
-A powerful [Model Context Protocol (MCP)](https://modelcontextprotocol.io) server for extracting webpage creation, modification, and publication timestamps. This tool is designed for content freshness evaluation, web scraping, and temporal analysis of web content.
+A powerful [Model Context Protocol (MCP)](https://modelcontextprotocol.io) server for extracting webpage creation, modification, and publication timestamps. This tool is designed for web scraping and temporal analysis of web content.
 
 ## Features
 
@@ -318,7 +318,7 @@ const results = await Promise.all(
 
 ## Use Cases
 
-- **Content Freshness Analysis**: Evaluate how recent web content is
+- **Content Analysis**: Analyze temporal aspects of web content
 - **Web Scraping**: Extract temporal metadata from scraped pages
 - **SEO Analysis**: Analyze publication and modification patterns
 - **Research**: Study temporal aspects of web content
